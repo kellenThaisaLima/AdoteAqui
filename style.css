@@ -221,8 +221,8 @@ p.botao a
 .botao a:hover 
 { 
     color: rgb(27, 161, 214);
-    border:border:2px solid #26111F;
-    background-color: #581040;    
+    border:2px solid #26111F;
+    background-color:#581040;    
 }
     
 .dragon
