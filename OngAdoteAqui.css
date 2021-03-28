@@ -1,0 +1,259 @@
+*{
+    margin:0px;
+    padding: 0px;
+   
+       
+}
+header
+{
+    height:70px;
+    width: 100%;
+    background-color: rgb(0, 0 , 0);    
+    font-size: 22px;    
+    font-family: Verdana,Helvetica,sans-serif; 
+    
+}
+
+body
+{
+    background-color:#F2B705;
+    overflow:scroll
+}
+
+.cabeçalho
+{
+    color: rgb(253, 203, 5);
+    display: flex ;
+    justify-content: space-between; 
+    align-items: center; 
+    margin: 0 auto;  
+    height: 100%;
+    width: 940px;
+}   
+
+.Adoteaqui
+{
+    display: flex;
+    font-size: 0.8em;
+ }
+
+.menu a
+{
+    color: rgb(235, 219, 80); 
+    font-weight: bold;   
+    text-decoration: none;
+    font-size: 50%;
+}
+
+.menu a:hover
+{
+    color:#d85959;
+    border:1px solid white;
+    border-radius: 1px;    
+}
+
+.menu ul
+{
+    display: flex;
+}
+.menu li
+{
+    text-decoration: none;
+    margin-right: 40px;
+    list-style: none;
+        
+}
+
+.conteiner
+{
+    justify-content: center;
+    width: 940px;
+    height: 1000px; 
+    margin: 0 auto; 
+    padding: 5px 30px 5px 30px;   
+    background-color: #A68112;   
+    text-align:end;
+    font-family:Calibri,Helvetica, sans-serif;
+    display: block;     
+    
+}
+.titulo
+{
+    width: 100%;
+    height: 10%;
+    justify-content: flex-end;
+    font-size: 2em;
+    font-weight:200;  
+}
+.cat
+{
+    display: flex;
+    flex-flow: row wrap;            
+}
+.catbox1
+{
+    list-style: none;
+    color: #26111F;
+    font-weight: bold;    
+    background-color:#F2CB05;
+    display:flex;
+    font-family:Calibri,Helvetica, sans-serif;    
+    text-align: center; 
+    padding: 10px; 
+    margin: 1.5em; 
+    flex: 100px;
+              
+}
+.catbox2
+{
+    list-style: none;
+    color: #26111F;
+    font-weight: bold;    
+    background-color:#F2CB05;
+    display:flex;
+    font-family:Calibri,Helvetica, sans-serif;    
+    text-align: center; 
+    padding: 10px; 
+    margin: 1.5em; 
+    flex: 100px;    
+}
+
+.catbox3
+{
+    list-style: none;
+    color: #26111F;
+    font-weight: bold;    
+    background-color:#F2CB05;
+    display:flex;
+    font-family:Calibri,Helvetica, sans-serif;    
+    text-align: center; 
+    padding: 10px; 
+    margin: 1.5em; 
+    flex: 100px;          
+}
+.gatinhos
+{
+    display: flex;
+    text-align: center;
+    list-style: none;  
+    width: 100%;
+    height: 45%;
+    background-color:#A66953;    
+    justify-content:center; 
+    margin: 2px;   
+    padding: 2px;           
+}
+
+.gatinhos li
+{
+    background-color: #F2E8D5;
+    margin:1%;
+    padding: 1% ;    
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;      
+    border:2px solid #26111F;
+    border-radius: 10px;    
+    width: auto;
+}
+
+.gatinhos li:hover
+{
+    background-color: tomato;
+    transition-duration: 0.5s;
+    transform: translateX(0) scale(0.9);
+}
+
+.gatinhos h4
+{
+    background-color: #E8F2E4;
+    display: flex;
+    font-family:Calibri,Helvetica, sans-serif;
+    font-size: 1em;
+    justify-content:center;
+    text-align: center; 
+    color: #26111F;   
+    font-weight:bold;        
+}
+.gatinhos p
+{
+    background-color: #F2CB05;
+    display: flex;
+    font-family:Calibri,Helvetica, sans-serif;
+    font-size: 0.8em;
+    justify-content:space-between;
+    text-align: center;    
+    color: #26111F;    
+    flex-direction: row;         
+    margin: 1.5px;
+    padding: 1px;  
+   }
+
+.gatinhos p:hover
+{
+    font-size: 1em;
+    font-weight: bold; 
+}
+
+p.botao a
+{
+    background-color: #d85959;
+    display: flex;    
+    top:100%;    
+    justify-content: center;
+    text-align: center;
+    width: 100%;   
+    border: 1px solid #d85959;  
+    height:24px;	
+    text-decoration: none;   
+    font: bold 12px/24px Calibri,Helvetica, sans-serif;
+ }
+    
+ .botao a, .botao a:visited 
+ {  
+    padding:2px;     
+    text-align:center;	
+    color:#fff;
+    background: #333333;            	
+ }
+    
+.botao a:hover 
+{ 
+    color: rgb(27, 161, 214);
+    border:border:2px solid #26111F;
+    background-color: #581040;    
+}
+    
+.dragon
+{       
+    color: #26111F;    
+    justify-content:flex-end;
+    background-color:#F2CB05;
+    display:flex;
+    font-family:Calibri,Helvetica, sans-serif;
+    padding: 5px;
+    text-align: center;
+    flex-wrap: wrap;     
+}
+
+footer
+{
+    text-align: center;
+    background-color: black;
+    padding: 40px;
+    color:rgb(253, 203, 5)
+}
+
+@media (max-width: 700px){
+    body{
+        background: coral;     
+    }
+    .conteiner, .gatinhos li
+    {
+        width: auto;
+        display: flex;
+        flex-direction: column; 
+        
+    }
+    
+}
